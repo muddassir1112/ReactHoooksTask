@@ -9,7 +9,6 @@ export const Question1 = () => {
         <hr></hr>
         <div className='count'>
     <button className='btn' onClick={()=>setCount(count+=1)}>Clicked {count} number of times</button>
-    {/* <p className='para'>{count%2===0?'Clicked Even Times':'Clicked Odd Times'}</p> */}
     </div>
         </div>
   )
