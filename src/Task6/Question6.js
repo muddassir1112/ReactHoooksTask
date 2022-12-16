@@ -17,7 +17,7 @@ export const Question6 = () => {
       return "ODD"
     }
   }
-  const delay = useMemo(()=> OddEven(), [count1])
+  const delay = useMemo(()=> OddEven(), [count1]) //useMemo Hook
     const handleIncreament2 = () => {
       setCount2(() => count2+1);
     }
